@@ -19,7 +19,7 @@ import java.util.Properties;
 @ApplicationPath("/resource")
 
 public class Config extends Application {
-    private static final String PROPERTIES_PATH = "C:\\Github\\autoscout_m133\\testing\\bookList.properties";
+    private static final String PROPERTIES_PATH = "C:/github/m133_Kino_noel/testing/List.properties";
     private static Properties properties = null;
 
 

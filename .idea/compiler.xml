@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="m133_Kino_noel" target="1.8" />
+      <module name="m133_Kino_noel" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

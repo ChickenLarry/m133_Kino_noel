@@ -17,7 +17,8 @@ public class createJSON {
 
         Film[] filme = {
                 new Film("film1", 1, 1,"Harry","Potter"),
-                new Film("film1", 1, 1,"Harry","Potter")
+                new Film("film1", 1, 1,"Harry","Potter"),
+                new Film("film12", 1, 2,"Tom","Cyrus")
         };
 
         Kino[] kinos = {
@@ -32,9 +33,9 @@ public class createJSON {
 
         ObjectMapper om = new ObjectMapper();
         try {
-            om.writeValue(Paths.get("C:/github/M133_Kino/testing/film.json").toFile(), filme);
-            om.writeValue(Paths.get("C:/github/M133_Kino/testing/kino.json").toFile(), kinos);
-            om.writeValue(Paths.get("C:/github/M133_Kino/testing/saal.json").toFile(), saele);
+            om.writeValue(Paths.get("C:/github/m133_Kino_noel/testing/film.json").toFile(), filme);
+            om.writeValue(Paths.get("C:/github/m133_Kino_noel/testing/kino.json").toFile(), kinos);
+            om.writeValue(Paths.get("C:/github/m133_Kino_noel/testing/saal.json").toFile(), saele);
 
         } catch (IOException e) {
             e.printStackTrace();
