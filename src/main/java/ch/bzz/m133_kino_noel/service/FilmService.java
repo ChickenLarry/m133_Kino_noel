@@ -70,6 +70,4 @@ public class FilmService {
                 .entity(film)
                 .build();
     }
-
-
 }
